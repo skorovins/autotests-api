@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDEyOjA5OjQ0LjI0MjIwOCIsInVzZXJfaWQiOiI0NGZhYzVhMi0zOTY0LTQ5NjQtOGRiYS1mNGM2NTIwMjhjYzkifQ.jIdKJU3Vxe3HYuiQmMyUHjBfKyxoZFnVvZTs-kvWzk0' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Music doctor Republican night eat you.","maxScore":51,"minScore":1,"description":"Street mouth join new health never her usually. State visit star bed stand.\nI sit month yet fly spend. Such above idea our. Your realize quality age.","estimatedTime":"9 weeks","previewFileId":"baa1e18f-6fdc-456c-8b35-bbf65a014cc1","createdByUserId":"44fac5a2-3964-4964-8dba-f4c652028cc9"}'

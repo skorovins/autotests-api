@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDEyOjA5OjQxLjY5NzE4NyIsInVzZXJfaWQiOiJiZTdlM2QyMC0yNmQ4LTQ2MzEtOGNlZC03ZGY5NmVjZmVmYWUifQ.nKpiqG2Bv7x-wKbJ5pLnpCAdoPFQloSnYt2V2bcaeJc' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Admit part back single paper federal someone cut.","maxScore":100,"minScore":9,"description":"Sign popular seven interesting. Factor stock while specific from also response Mr.\nStatement but walk be teacher consumer. Hope board safe green. Window hope energy security.","estimatedTime":"1 weeks","previewFileId":"26d90a33-849f-4234-8b6d-c4793e1de6e4","createdByUserId":"be7e3d20-26d8-4631-8ced-7df96ecfefae"}'

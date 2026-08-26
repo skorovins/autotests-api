@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDEyOjA5OjQyLjY4MjQ4NyIsInVzZXJfaWQiOiJjMDA1ODE2OC0wODE0LTRjZjEtYmU5Ny1hMGRlMzM0N2IwOWYifQ.hD9a68IIJBYNmmcMXZM-vtxyr152mONK_6mbWh56PnI' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Realize option out require serious week.","maxScore":62,"minScore":21,"description":"Country child strong. Prevent ball side situation not.\nTake sea color them their. Age more another. Address arm see everything positive care.","estimatedTime":"10 weeks","previewFileId":"1cfa9347-de1f-4f38-af0a-bb30a354283d","createdByUserId":"c0058168-0814-4cf1-be97-a0de3347b09f"}'

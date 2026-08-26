@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDEyOjA5OjQzLjk2NzA5MiIsInVzZXJfaWQiOiI0ZWE2MDdjYi05NWRiLTQ0MTYtOWYzNy0wYzRjNTM1ZDJmMmYifQ.IdZLpRI58X-G457gDdZ6XMT6KCeNxQapq-qU9SPrJNQ' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Center management director share year.","maxScore":53,"minScore":8,"description":"Center stand around style PM. Marriage natural at trip.\nCell and anyone to teacher about.\nInteresting new consumer no sell center. Method expect me him evidence recent. Single table financial here.","estimatedTime":"5 weeks","previewFileId":"8ca49871-3762-411d-ad31-97a18cec0119","createdByUserId":"4ea607cb-95db-4416-9f37-0c4c535d2f2f"}'

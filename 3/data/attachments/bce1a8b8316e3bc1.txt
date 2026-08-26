@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDEyOjA5OjQyLjk1ODE4MCIsInVzZXJfaWQiOiI1ZmE5NGIzNC03N2FhLTQ3NzEtYjYwZC02OTlmMTI2ZWNkYjUifQ.m4HUmaKLFhluJcwM7e2HaXCI57nnNT7No2XTByhjnhk' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Audience government already turn research hot idea.","maxScore":67,"minScore":27,"description":"Mr current address employee hair. Entire mean play serious force.\nPresident guess campaign network. Hope enjoy loss.\nCertain down heart if. Guess ten on mouth though future just.","estimatedTime":"5 weeks","previewFileId":"6a952820-2158-4dcc-846a-cf2450adc260","createdByUserId":"5fa94b34-77aa-4771-b60d-699f126ecdb5"}'

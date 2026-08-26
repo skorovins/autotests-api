@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0285154e-37aa-4e5c-8e2a-1431347b1e63' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDEyOjA5OjQxLjQyMjI0MyIsInVzZXJfaWQiOiIxZjA0OTg1Mi03N2NlLTQ5NDUtYTkzNi1jMmQwZjIwOWI2ZDYifQ.TSM1VbBqIFR-bjO0IsrKUw19VmS97BMP4IyZo-FJJU0' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Miss affect occur partner.","maxScore":86,"minScore":17,"description":"Upon conference type development significant seek. Live year station keep media television. Probably pass particularly fly this.\nExpect age fill whose thought get. Oil seek yet alone.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDEyOjA5OjQyLjk1ODE4MCIsInVzZXJfaWQiOiI1ZmE5NGIzNC03N2FhLTQ3NzEtYjYwZC02OTlmMTI2ZWNkYjUifQ.m4HUmaKLFhluJcwM7e2HaXCI57nnNT7No2XTByhjnhk' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Candidate particular personal score rather boy.","courseId":"46d5007b-b4e2-4e06-97c8-3844093ed526","maxScore":94,"minScore":18,"orderIndex":32,"description":"War him should fly. Quite state discuss performance sign. Use go next out tell main cover.\nExactly use stay tree. Book country to. Her participant talk analysis well away.","estimatedTime":"5 weeks"}'

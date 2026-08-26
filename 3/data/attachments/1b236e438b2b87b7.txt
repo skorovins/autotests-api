@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/0285154e-37aa-4e5c-8e2a-1431347b1e63
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/0285154e-37aa-4e5c-8e2a-1431347b1e63
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:25 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Miss affect occur partner.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 86
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Upon conference type development significant seek. Live year station keep media television. Probably pass particularly fly this.
+Expect age fill whose thought get. Oil seek yet alone.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 1 weeks

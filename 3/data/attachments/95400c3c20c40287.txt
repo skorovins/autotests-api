@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTI2VDEyOjA5OjM5LjgwNDg3NyIsInVzZXJfaWQiOiI2ZmQ4NzlhNS01ZjAyLTQ4M2UtYTdjMi0yY2RkYTg4YTQ5ZDUifQ.l-Rt1WyFKyINdyanaF19tAQcVJVXlfU9RhjAdpvbtQ4' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enough prepare change they allow government country.","maxScore":76,"minScore":17,"description":"Poor lawyer order commercial idea adult. Agent day pressure TV deep management. Involve effect know third weight color. Care subject minute process.","estimatedTime":"8 weeks","previewFileId":"eabf579c-d6e7-4b3b-855a-c80a4c9e981b","createdByUserId":"6fd879a5-5f02-483e-a7c2-2cdda88a49d5"}'
